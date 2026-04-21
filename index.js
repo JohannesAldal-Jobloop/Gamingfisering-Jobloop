@@ -16,7 +16,7 @@ function levering() {
         levelTellerElement.innerHTML = level;
         expFyllElement.style.width = "94%";
         expFyllElement.style.borderColor = "red";
-        sleep(3000)
+        setTimeout(() => 3000)
         exp = 0;
         expFyllElement.style.width = (exp.toString() + "%");
         expFyllElement.style.borderColor = "orange";
