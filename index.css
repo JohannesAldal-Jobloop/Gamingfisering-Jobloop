@@ -15,6 +15,9 @@
     
     background-color: black;
 
+    /*animation-name: levelOpp;*/
+    animation-duration: 3s;
+
 }
 
 #expFyll {
@@ -25,4 +28,11 @@
     border-radius: 10px;
     border-width: 15px;
     
+}
+
+@keyframes levelOpp {
+    0%  {rotate: 0.02turn;}
+    25% {rotate: -0.02turn;}
+    50% {rotate: 0.02turn;}
+    75% {rotate: -0.02turn;}
 }
