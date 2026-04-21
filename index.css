@@ -1,0 +1,28 @@
+#framsida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#expBar {
+    width: 50%;
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 8px;
+    
+    background-color: black;
+
+}
+
+#expFyll {
+    width: 0%;
+
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    border-width: 15px;
+    
+}
